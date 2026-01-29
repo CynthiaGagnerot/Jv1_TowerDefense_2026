@@ -2,16 +2,18 @@ using UnityEngine;
 
 public class TowerSpawn : MonoBehaviour
 {
-    public GameObject towerPrefab;
-    private ShopManager shopManager;
-    
-    private void Start()
-    {
-        shopManager = FindFirstObjectByType<ShopManager>();    
-    }
+        private ShopManager shopManager;
 
-    private void OnMouseDown()
-    {
-        shopManager.OpenShop(this);
-    }
+        private void Start()
+        {
+            shopManager = FindFirstObjectByType<ShopManager>();
+        }
+
+        private void OnMouseDown()
+        {
+            print("test");
+            shopManager.OpenShop(this);
+        }
+
+
 }

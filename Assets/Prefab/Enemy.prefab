@@ -83,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 10
   m_Sprite: {fileID: -803060424, guid: ecf4c7f75e412da4ca589c406d3ca8c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -144,7 +144,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHP: 0
-  maxHP: 0
+  maxHP: 2
+  goldToWin: 0
+  goldManager: {fileID: 0}
 --- !u!114 &5904849984569411636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,8 +185,9 @@ MonoBehaviour:
   mySpriteRenderer: {fileID: 8627490198144938418}
   mySplineAnimate: {fileID: 5904849984569411636}
   myHpManager: {fileID: 5068101206614994987}
+  myParticle: {fileID: 4867325034859843206, guid: d92633d2fe5ecc34d946ab618a6ab736, type: 3}
   timeToPath: 20
-  HpMax: 10
+  HpMax: 2
 --- !u!50 &-1428939132400990454
 Rigidbody2D:
   serializedVersion: 5

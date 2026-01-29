@@ -6,7 +6,6 @@ public class BulletBehaviour : MonoBehaviour
     public float speed = 0.2f;
     public int dammage;
     public SpriteRenderer spriteRenderer;
-    public ParticleSystem myParticle;
 
     void Update()
     {
@@ -27,7 +26,6 @@ public class BulletBehaviour : MonoBehaviour
             collisionEnemyComponent.myHpManager.RemoveHp(dammage);
             
             Destroy(gameObject);
-            Instantiate(myParticle, gameObject.transform.position, Quaternion.identity);
         }
     }
 }

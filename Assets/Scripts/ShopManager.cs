@@ -12,6 +12,11 @@ public class ShopManager : MonoBehaviour
         goldmanager = FindFirstObjectByType<GoldManager>();
     }
 
+    public void Start()
+    {
+        shopUI.SetActive(false);
+    }
+
     public void OpenShop(TowerSpawn towerToSelect)
     {
         shopUI.SetActive(true);

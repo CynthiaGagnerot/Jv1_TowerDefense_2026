@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: c10d802b27d2b00459c2fbf37e26bf1a
+guid: 3e1a00629dab6b641b46f75f703af08b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7463282658537646794
+    second: 20250421manaSoulButtonC-Sheet_0
+  - first:
+      213: -3585271924213564992
+    second: 20250421manaSoulButtonC-Sheet_1
+  - first:
+      213: -8665802889247444673
+    second: 20250421manaSoulButtonC-Sheet_2
+  - first:
+      213: -1512016397986836390
+    second: 20250421manaSoulButtonC-Sheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -34,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,12 +120,100 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 20250421manaSoulButtonC-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 95
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635d787d6f71d6890800000000000000
+      internalID: -7463282658537646794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250421manaSoulButtonC-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 97
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9b1163e2e8e3ec0800000000000000
+      internalID: -3585271924213564992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250421manaSoulButtonC-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1
+        width: 93
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f313ad48f22ecb780800000000000000
+      internalID: -8665802889247444673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250421manaSoulButtonC-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 2
+        width: 91
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50dd67d81d340be0800000000000000
+      internalID: -1512016397986836390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -122,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      20250421manaSoulButtonC-Sheet_0: -7463282658537646794
+      20250421manaSoulButtonC-Sheet_1: -3585271924213564992
+      20250421manaSoulButtonC-Sheet_2: -8665802889247444673
+      20250421manaSoulButtonC-Sheet_3: -1512016397986836390
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
