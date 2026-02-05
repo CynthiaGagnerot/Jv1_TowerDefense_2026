@@ -13,6 +13,7 @@ public class HpManager : MonoBehaviour
     private void Start()
     {
         currentHP = maxHP;
+        goldManager = FindAnyObjectByType<GoldManager>();
     }
 
     public void RemoveHp(int pvPerdu)

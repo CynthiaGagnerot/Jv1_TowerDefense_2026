@@ -143,7 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Shooter
   enemiesInRange: []
   targetEnemy: {fileID: 0}
-  shootTime: 2
+  shootTime: 1
   dammage: 1
   bulletColor: {r: 1, g: 1, b: 1, a: 1}
   bulletPrefab: {fileID: -4286085463782905564, guid: 83e763f6e53e95a43a1afcf1891678e5, type: 3}
@@ -161,4 +161,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b31b7eade32b2c4b89651d645737222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerContainer
-  towerPrice: 0
+  towerPrice: 10

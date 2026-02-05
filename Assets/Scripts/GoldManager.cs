@@ -1,5 +1,7 @@
 using UnityEngine;
+using UnityEngine.UI; 
 using TMPro;
+
 
 public class GoldManager : MonoBehaviour
 {
@@ -15,6 +17,6 @@ public class GoldManager : MonoBehaviour
 
     void Update()
     {
-        goldText.text = currentGold.ToString("00");
+        goldText.text = $"Gold : {currentGold}";
     }
 }

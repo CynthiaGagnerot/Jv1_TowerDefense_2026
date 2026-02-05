@@ -9,6 +9,7 @@ public class EnemyContainer : MonoBehaviour
     public SpriteRenderer mySpriteRenderer;
     public SplineAnimate mySplineAnimate;
     public HpManager myHpManager;
+    public GoldManager myGoldManager;
     public GameObject myParticle;
 
     public int timeToPath;
@@ -17,7 +18,8 @@ public class EnemyContainer : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        myHpManager.maxHP = HpMax;
+        myHpManager.maxHP = HpMax; 
+        myHpManager.goldManager = FindFirstObjectByType<GoldManager>();
         mySplineAnimate.Container = FindFirstObjectByType<SplineContainer>();
         mySplineAnimate.Duration = timeToPath + Random.Range(-3,3);
         mySplineAnimate.Play();
